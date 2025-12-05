@@ -9,9 +9,7 @@ on:
     branches: [main]
 
 env:
-  # BASE_URL is the path GitHub Pages serves the site from
-  # For repo https://github.com/<user>/<repo>, this is /<repo>
-  BASE_URL: /${{ github.event.repository.name }}
+  BASE_URL: /CSC254-Textbook
 
 # Permissions so the action can publish to Pages
 permissions:
